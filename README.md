@@ -13,7 +13,7 @@ Clone the Repository: Use Git to clone the project repository to your local mach
 
 bash
 Copy code
-git clone [repository URL]
+git clone [https://github.com/zeecares/DistilledChallenge.git]
 Navigate to the Project Directory: After cloning, navigate to the project directory.
 
 bash
