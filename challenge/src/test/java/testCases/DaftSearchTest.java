@@ -6,6 +6,8 @@ import pageObjects.AdPage;
 import pageObjects.HomePage;
 import pageObjects.SearchResultsPage;
 
+import java.io.IOException;
+
 
 public class DaftSearchTest extends BaseClass{
     private HomePage homePage;
@@ -54,7 +56,7 @@ public class DaftSearchTest extends BaseClass{
     }
 
     @Test(dependsOnMethods = "verifyKeywordFilterResults")
-    public void openAndVerifyAdvert() throws InterruptedException {
+    public void openAndVerifyAdvert() throws IOException {
         // Open one search result
         Reporter.log("Opening and Verifying Advertisement...", true);
         searchResultsPage.openFirstResult();
@@ -62,9 +64,9 @@ public class DaftSearchTest extends BaseClass{
         adPage.verifyPageUrlStartsWith("https://www.daft.ie/for-sale/");
         Reporter.log("Confirmed page checking keyword", true);
         adPage.verifyKeywordVisible("garage");
+        Reporter.log("Take a final screenshot", true);
+        takeScreenshot("verifyAdvert");
         Reporter.log("Advertisement Verification Completed.", true);
     }
-
-
 }
 
