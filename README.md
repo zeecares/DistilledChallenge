@@ -40,3 +40,6 @@ Go to 'File' > 'Import' > 'Existing Maven Projects' and select the project direc
 Run the application through your IDE's run configuration, ensuring the main class is correctly specified.
 Double click challenge/src/test/testCases/DaftSearchTest and run it from the IDE
 
+Please note, headless mode is enabled by default. To disable headless mode, in challenge/src/test/testCases/BaseClass, please comment out: 
+options.addArguments("--headless"); 
+
