@@ -15,7 +15,9 @@ An IDE (Integrated Development Environment) of your choice (e.g., IntelliJ IDEA,
 ## Getting Started
 Clone the Repository: Use Git to clone the project repository to your local machine.
 
+```
 git clone https://github.com/zeecares/DistilledChallenge.git
+```
 
 After cloning, navigate to the project directory.
 
