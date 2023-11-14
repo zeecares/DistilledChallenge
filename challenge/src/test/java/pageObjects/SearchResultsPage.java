@@ -14,7 +14,6 @@ import java.util.List;
 public class SearchResultsPage {
     private final WebDriver driver;
     private final WebDriverWait wait;
-    // Assume there's a list of result elements, each with a certain class or identifier
     private static final Logger logger = Logger.getLogger(SearchResultsPage.class);
 
     @FindBy(css ="[data-testid^='result-']")
