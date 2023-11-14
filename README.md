@@ -10,7 +10,7 @@ Maven (Version 3.6 or higher)
 
 Git (for version control)
 
-An IDE (Integrated Development Environment) of your choice (e.g., IntelliJ IDEA, Eclipse)
+An IDE (Integrated Development Environment) of your choice (e.g., [IntelliJ IDEA](https://www.jetbrains.com/idea/), [Eclipse](https://eclipseide.org/))
 
 ## Getting Started
 Clone the Repository: Use Git to clone the project repository to your local machine.
